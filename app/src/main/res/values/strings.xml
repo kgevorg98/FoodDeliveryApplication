@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FoodDeliveryApplication</string>
+    <string name="menu_fragment_name">Меню</string>
+    <string name="profile_fragment_name">Профиль</string>
+    <string name="basket_fragment_name">Корзина</string>
+    <string name="meal_item_price" formatted="true">от %.0f р</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/nav_main"
+    app:startDestination="@id/menuFragment">
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.fooddeliveryapplication.presentation.menuFragment.MenuFragment"
+        android:label="MenuFragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.fooddeliveryapplication.presentation.profileFragment.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/basketFragment"
+        android:name="com.example.fooddeliveryapplication.presentation.basketfragment.BasketFragment"
+        android:label="BasketFragment" />
+</navigation>

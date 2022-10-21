@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="menu_fragment_bg_color">#FBFBFB</color>
+    <color name="grey">#F3F5F9</color>
+    <color name="meal_title_color">#222831</color>
+    <color name="meal_description_color">#AAAAAD</color>
+    <color name="meal_price_bg_solid_color">#FBFBFB</color>
+    <color name="meal_price_bg_stroke_color">#FD3A69</color>
+    <color name="meal_price_text_color">#FD3A69</color>
+    <color name="bottom_nav_bg_color">#F0F0F0</color>
+    <color name="bottom_nav_fragment_unfocused">#7B7B7B</color>
+    <color name="bottom_nav_fragment_focused">#FD3A69</color>
+    <color name="category_text_color_unfocused">#C3C4C9</color>
+    <color name="category_text_color_focused">#FD3A69</color>
+    <color name="category_view_bg_selected">#33FD3A69</color>
+    <color name="category_view_bg_unselected">#2BBEBEBE</color>
+</resources>

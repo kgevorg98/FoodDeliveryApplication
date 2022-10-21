@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dropdownTitle"
+        app:showAsAction="always"
+        android:title="Moscow"
+        android:icon="@drawable/arrow_down">
+        <menu>
+        <item
+            android:id="@+id/action_add_contact"
+            android:title="Moscow"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/action_settings"
+            android:title="Leningrad"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/action_about_us"
+            android:title="Kazan"
+            app:showAsAction="ifRoom" />
+        </menu>
+
+
+    </item>
+
+</menu>

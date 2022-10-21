@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/space_88"
+    android:layout_height="@dimen/space_32"
+    android:layout_marginStart="8dp"
+    android:background="@drawable/category_view_bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/tvCategoryTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="@dimen/text_13"
+        android:fontFamily="@font/sf_ui_display_medium"
+        android:textColor="@color/category_navigation_selector"
+        tools:text="Pizza"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

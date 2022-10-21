@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/menu_fragment_bg_color">
+
+
+    <View
+        android:id="@+id/vDivider"
+        android:layout_width="@dimen/space_0"
+        android:layout_height="@dimen/space_1"
+        android:background="@color/grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivMeal"
+        android:layout_width="@dimen/space_135"
+        android:layout_height="@dimen/space_135"
+        android:layout_marginStart="@dimen/space_16"
+        android:layout_marginTop="@dimen/space_16"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vDivider"
+        tools:src="@drawable/asa" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="@dimen/space_0"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_22"
+        android:layout_marginEnd="@dimen/space_16"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/meal_title_color"
+        android:textSize="@dimen/text_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivMeal"
+        app:layout_constraintTop_toTopOf="@id/ivMeal"
+        tools:text="Ветчина и грибы" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="@dimen/space_0"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintStart_toStartOf="@id/tvTitle"
+        app:layout_constraintEnd_toEndOf="@id/tvTitle"
+        android:fontFamily="@font/sf_ui_display_medium"
+        android:textColor="@color/meal_description_color"
+        android:layout_marginTop="@dimen/space_8"
+        android:textSize="@dimen/text_14"
+        tools:text="Ветчина,шампиньоны, увеличинная порция моцареллы, томатный соус"/>
+
+    <View
+        android:id="@+id/vPrice"
+        android:layout_width="@dimen/space_87"
+        android:layout_height="@dimen/space_32"
+        app:layout_constraintBottom_toBottomOf="@id/ivMeal"
+        app:layout_constraintEnd_toEndOf="@id/tvTitle"
+        android:background="@drawable/meal_price_view_bg"/>
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_margin="@dimen/space_8"
+        android:fontFamily="@font/sf_ui_display_medium"
+        android:textColor="@color/meal_price_text_color"
+        android:textSize="@dimen/text_13"
+        app:layout_constraintStart_toStartOf="@id/vPrice"
+        app:layout_constraintEnd_toEndOf="@id/vPrice"
+        app:layout_constraintTop_toTopOf="@id/vPrice"
+        app:layout_constraintBottom_toBottomOf="@id/vPrice"
+        tools:text="от 345 р"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
