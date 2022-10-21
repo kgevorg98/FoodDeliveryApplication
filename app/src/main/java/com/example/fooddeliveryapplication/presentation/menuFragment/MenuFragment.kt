@@ -6,18 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.fooddeliveryapplication.R
 import com.example.fooddeliveryapplication.databinding.MenuFragmentBinding
-import com.example.fooddeliveryapplication.domain.model.BannerModel
-import com.example.fooddeliveryapplication.domain.model.CategoryModel
 import com.example.fooddeliveryapplication.presentation.adapters.BannerAdapter
 import com.example.fooddeliveryapplication.presentation.adapters.CategoryAdapter
 import com.example.fooddeliveryapplication.presentation.adapters.MealAdapter
-import com.example.fooddeliveryapplication.presentation.base.utils.observeInLifecycle
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.onEach
 import org.koin.androidx.viewmodel.ext.android.viewModel
-
 class MenuFragment : Fragment() {
 
     private var _binding:MenuFragmentBinding? = null

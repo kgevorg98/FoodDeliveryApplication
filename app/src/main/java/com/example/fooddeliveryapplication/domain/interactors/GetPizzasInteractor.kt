@@ -5,5 +5,5 @@ import com.example.fooddeliveryapplication.data.models.remote.Pizza
 import kotlinx.coroutines.flow.Flow
 
 interface GetPizzasInteractor {
-    suspend operator fun invoke(): Flow<Resource<List<Pizza>>>
+     operator fun invoke(): Flow<Resource<List<Pizza>>>
 }

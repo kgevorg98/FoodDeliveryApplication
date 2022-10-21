@@ -9,5 +9,5 @@ import kotlinx.coroutines.flow.Flow
 class GetPizzasUseCase(
     private val pizzaRepository: PizzaRepository
 ) : GetPizzasInteractor {
-    override suspend fun invoke(): Flow<Resource<List<Pizza>>> = pizzaRepository.getPizzas()
+    override  fun invoke(): Flow<Resource<List<Pizza>>> = pizzaRepository.getPizzas()
 }

@@ -1,6 +1,6 @@
 package com.example.fooddeliveryapplication.presentation.basketfragment
 
-import com.example.fooddeliveryapplication.presentation.base.viewModels.BaseViewModel
+import androidx.lifecycle.ViewModel
 
-class BasketFragmentViewModel: BaseViewModel() {
+class BasketFragmentViewModel: ViewModel() {
 }

@@ -1,6 +1,6 @@
 package com.example.fooddeliveryapplication.presentation.profileFragment
 
-import com.example.fooddeliveryapplication.presentation.base.viewModels.BaseViewModel
+import androidx.lifecycle.ViewModel
 
-class ProfileFragmentViewModel: BaseViewModel() {
+class ProfileFragmentViewModel: ViewModel() {
 }
